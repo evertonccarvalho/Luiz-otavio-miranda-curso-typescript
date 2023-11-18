@@ -13,7 +13,7 @@ module.exports = {
     'eslint:recommended', // Usa as regras recomendadas pelo ESLint
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended', // Adiciona regras específicas para TypeScript
-    // 'plugin:prettier/recommended',
+    'plugin:prettier/recommended',
   ],
 
   // Configurações adicionais para plugins ou regras específicas
