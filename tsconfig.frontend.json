@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "lib": ["es2015", "DOM"],
+    "module": "commonjs",
+    "outDir": "frontend/assets/js",
+    "strict": true,
+    "target": "es2015",
+    "esModuleInterop": true
+  },
+  "include": ["src"]
+}
