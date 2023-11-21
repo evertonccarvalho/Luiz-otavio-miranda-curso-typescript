@@ -1,11 +1,16 @@
 {
   "compilerOptions": {
-    "lib": ["es2015", "DOM"],
+    "target": "ES2022",
     "module": "commonjs",
+    "lib": ["ESNext", "DOM"],
     "outDir": "dist",
+    "rootDir": "src",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "noEmitOnError": true,
     "strict": true,
-    "target": "es2015",
-    "esModuleInterop": true
-  },
-  "include": ["src"]
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
 }
